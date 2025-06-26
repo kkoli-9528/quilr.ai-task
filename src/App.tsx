@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-2xl font- mb-4">Query Builder</h1>
+      <h1 className="text-2xl font-bold mb-4 p-5">Query Builder</h1>
       <Group group={query} onChange={handleQueryChange} />
       <button
         className="bg-purple-600 text-white px-4 py-2 rounded"
