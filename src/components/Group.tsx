@@ -38,7 +38,7 @@ export function Group({ group, onChange, onRemove }: Props) {
 
   return (
     <div className="border rounded-lg p-4 mb-4 bg-gray-50">
-      <div className="flex gap-2 items-center mb-2 pb-1">
+      <div className="flex gap-2 items-center mb-2">
         <label className="font-semibold text-sm">Logic:</label>
         <select
           className="border rounded px-2 py-1"
